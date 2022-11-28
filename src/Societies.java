@@ -26,6 +26,16 @@ public class Societies implements User {
         return null;
     }
 
+    @Override
+    public String getSurname() {
+        return null;
+    }
+
+    @Override
+    public String getDni() {
+        return null;
+    }
+
 
     public String getCompanyName() {
         return companyName;
