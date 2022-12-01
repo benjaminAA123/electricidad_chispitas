@@ -2,13 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f869b092-5f54-4b71-ad27-b76e743dff7f" name="Changes" comment="casi terminado + customer">
-      <change afterPath="$PROJECT_DIR$/src/data/CustomerDataStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/DataStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/MemCustomerDataStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/TreeMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/AddCustomerUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/iesam/chispas/domain/usecase/DeleteCustomerUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/iesam/chispas/domain/usecase/GetCustomerUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/iesam/chispas/presentation/InvoicePrinting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Societies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Societies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Autonomous.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/iesam/chispas/domain/models/Autonomous.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bills.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/iesam/chispas/domain/models/Invoices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Foots.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/iesam/chispas/domain/models/Foots.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gestion_Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/iesam/chispas/domain/models/Gestion_Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InvoidePrinting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/iesam/chispas/presentation/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/iesam/chispas/domain/models/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/iesam/chispas/domain/models/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Societies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/iesam/chispas/domain/models/Societies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/iesam/chispas/domain/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/CustomerDataStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/iesam/chispas/data/CustomerDataStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/DataStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/iesam/chispas/data/DataStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/MemCustomerDataStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/iesam/chispas/data/MemCustomerDataStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/TreeMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/iesam/chispas/data/TreeMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/AddCustomerUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/iesam/chispas/domain/usecase/AddCustomerUseCase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +52,11 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.iesam.chispas.presentation" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669318784966</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="casi terminado + customer">
+      <created>1669658401137</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669658401137</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -74,5 +98,16 @@
     <MESSAGE value="casi terminado" />
     <MESSAGE value="casi terminado + customer" />
     <option name="LAST_COMMIT_MESSAGE" value="casi terminado + customer" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/iesam/chispas/presentation/InvoicePrinting.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

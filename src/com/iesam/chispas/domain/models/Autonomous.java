@@ -1,30 +1,37 @@
-public class Societies implements User {
+package com.iesam.chispas.domain.models;
+
+public class Autonomous implements User {
+    /**
+     * Clase  autonomos
+     */
 
     private Integer idClient;
     private Integer phone;
-    public String companyName;
-    public String cif;
+    public String name;
+    public String surname;
+    public String dni;
     public String postal;
     public String population;
     public String province;
     public String email;
 
 
-
     @Override
     public Integer getIdClient() {
-        return this.idClient;
+        return null;
     }
 
     @Override
     public Integer getPhone() {
-        return this.phone;
+        return null;
     }
 
     @Override
     public String getName() {
         return null;
     }
+
+
 
     @Override
     public String getSurname() {
@@ -33,18 +40,9 @@ public class Societies implements User {
 
     @Override
     public String getDni() {
-        return null;
+        return this.dni;
     }
 
-
-    public String getCompanyName() {
-        return companyName;
-    }
-
-
-    public String getCif() {
-        return cif;
-    }
 
     @Override
     public String getPostal() {
@@ -66,6 +64,7 @@ public class Societies implements User {
         return null;
     }
 
+
     public void setIdClient(Integer idClient) {
         this.idClient = idClient;
     }
@@ -74,12 +73,17 @@ public class Societies implements User {
         this.phone = phone;
     }
 
-    public void setCompanyName(String companyName) {
-        this.companyName = companyName;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public void setCif(String cif) {
-        this.cif = cif;
+    public void setSurname(String surname) {
+        this.surname = surname;
+    }
+
+
+    public void setDni(String dni) {
+        this.dni = dni;
     }
 
     public void setPostal(String postal) {
@@ -98,3 +102,5 @@ public class Societies implements User {
         this.email = email;
     }
 }
+
+

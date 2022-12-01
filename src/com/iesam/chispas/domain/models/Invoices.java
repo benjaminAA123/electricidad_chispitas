@@ -1,13 +1,15 @@
-public class Bills  {
+package com.iesam.chispas.domain.models;
+
+public class Invoices {
 
     private Integer idInvoice;
-
-    public String date;
+    public String invoiceDate;
     public String client;
     public String product;
     public String service;
     public String taxBase;
     public String totalVat;
+
 
     public Integer getIdInvoice() {
         return idInvoice;
@@ -18,13 +20,15 @@ public class Bills  {
     }
 
 
-    public String getDate() {
-        return date;
+    public String getInvoiceDate() {
+        return invoiceDate;
     }
 
-    public void setDate(String date) {
-        this.date = date;
+    public void setInvoiceDate(String invoiceDate) {
+        this.invoiceDate = invoiceDate;
     }
+
+
 
     public String getClient() {
         return client;
@@ -34,24 +38,10 @@ public class Bills  {
         this.client = client;
     }
 
-    public String getProduct() {
-        return product;
-    }
 
-    public void setProduct(String product) {
-        this.product = product;
-    }
-
-    public String getService() {
-        return service;
-    }
-
-    public void setService(String service) {
-        this.service = service;
-    }
 
     public String getTaxBase() {
-        return taxBase;
+        return  taxBase;
     }
 
     public void setTaxBase(String taxBase) {
@@ -66,4 +56,4 @@ public class Bills  {
         this.totalVat = totalVat;
     }
 
-}
+    }

@@ -1,3 +1,10 @@
+package com.iesam.chispas.presentation;
+
+import com.iesam.chispas.domain.models.Autonomous;
+import com.iesam.chispas.domain.models.Product;
+import com.iesam.chispas.domain.models.Service;
+import com.iesam.chispas.domain.models.Societies;
+
 public class Main {
         public static void main (String[] args){
         Autonomous autonomous = new Autonomous();
@@ -55,9 +62,10 @@ public class Main {
                 System.out.println("codi:" +societies.getIdClient() + " Nombre: " + societies.getName());
     }
 
-    public static void printUser(User user) {
+    /*
+  /  public static void printUser(User user) {
                 System.out.println("cod:" + user.getIdClient() + "Nombre: " + user.getName());
-    }
-
+  /  }
+*/
 
 }

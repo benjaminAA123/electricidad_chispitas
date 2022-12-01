@@ -1,3 +1,5 @@
+package com.iesam.chispas.domain.models;
+
 public interface User {
 
     public Integer getIdClient();

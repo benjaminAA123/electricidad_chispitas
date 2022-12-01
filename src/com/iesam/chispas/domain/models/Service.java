@@ -1,3 +1,5 @@
+package com.iesam.chispas.domain.models;
+
 public class Service implements Foots {
 
     private Integer idServ;

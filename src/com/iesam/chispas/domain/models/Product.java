@@ -1,3 +1,5 @@
+package com.iesam.chispas.domain.models;
+
 public class Product implements Foots {
     private Integer idProduct;
     public String name;
