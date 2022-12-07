@@ -9,36 +9,27 @@ public class Product implements Foots {
     public String vatRate;
 
 
-    public Integer getIdProduct() {
-        return idProduct;
-    }
-
     @Override
-    public Integer getName() {
-        return null;
-    }
-
-
-    @Override
-    public Integer getBrand() {
-        return null;
-    }
-
-    public String getModel() { return model; }
-
-
-    public String getPrice() {
-        return price;
+    public String getBrand() {
+        return this.brand;
     }
 
     @Override
     public String getVatRate() {
-        return null;
+        return this.vatRate;
     }
 
 
+    public Integer getIdProduct() {
+        return idProduct;
+    }
+
     public void setIdProduct(Integer idProduct) {
         this.idProduct = idProduct;
+    }
+
+    public String getName() {
+        return name;
     }
 
     public void setName(String name) {
@@ -49,8 +40,16 @@ public class Product implements Foots {
         this.brand = brand;
     }
 
+    public String getModel() {
+        return model;
+    }
+
     public void setModel(String model) {
         this.model = model;
+    }
+
+    public String getPrice() {
+        return price;
     }
 
     public void setPrice(String price) {
@@ -60,5 +59,4 @@ public class Product implements Foots {
     public void setVatRate(String vatRate) {
         this.vatRate = vatRate;
     }
-
 }

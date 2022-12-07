@@ -8,27 +8,27 @@ public class Service implements Foots {
     public String vatRate;
 
 
-    public Integer getIdServ() {
-        return idServ;
-    }
-
     @Override
-    public Integer getName() {
-        return null;
-    }
-
-    @Override
-    public Integer getBrand() {
-        return null;
+    public String getBrand() {
+        return this.brand;
     }
 
     @Override
     public String getVatRate() {
-        return null;
+        return this.vatRate;
+    }
+
+
+    public Integer getIdServ() {
+        return idServ;
     }
 
     public void setIdServ(Integer idServ) {
         this.idServ = idServ;
+    }
+
+    public String getName() {
+        return name;
     }
 
     public void setName(String name) {

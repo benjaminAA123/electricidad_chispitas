@@ -1,76 +1,78 @@
 package com.iesam.chispas.presentation;
+import com.iesam.chispas.domain.models.*;
 
-import com.iesam.chispas.domain.models.Invoices;
+/*
+/ Código de Factura. | Fecha de Factura.
+○ Cif/Nif del cliente
+○ Nombre del cliente.
+○ Dirección del cliente.
+○ Población del cliente.
+○ Provincia del cliente.
+○ Además tiene entre 1 a N líneas de ventas (productos y servicios) con esta información:
+■ Código
+■ Nombre
+■ Precio (10€)
+■ Tipo IVA (21%)
+■ Total con IVA (precio + IVA) (12,1€)
+○ Base Imponible
+○ Total Factura
+ */
 
 public class InvoicePrinting {
-/*
-   public static void print(Invoices invoices) {
 
-         System.out.println("RESUMEN FACTURA");
-         System.out.println("Codigo de la factura:");
-         System.out.println(invoices.getIdInvoice());
-         System.out.println("Fecha de la factura:");
-         System.out.println(invoices.getInvoiceDate());
-         System.out.println("Codido del cliente:");
-         System.out.println(invoices.get);
-         System.out.println("Codido del producto:");
-         System.out.println(factura.getCodigoProducto());
-         System.out.println("Codido del servicio:");
-         System.out.println(factura.getCodigoServicio());
-         System.out.println(factura.getBaseImponible());
-         System.out.println(factura.getTotal());
+
+
+
+      public static void print(User factura) {
+            System.out.println("Codido cliente:");
+            System.out.println(factura.getIdClient());
+            System.out.println("Nombre del cliente");
+            System.out.println(factura.getName());
+            System.out.println("Direccion del cliente:");
+            System.out.println(factura.getPostal());
+            System.out.println("Poblacion del cliente:");
+            System.out.println(factura.getPopulation() );
+            System.out.println("Provincia del cliente:");
+            System.out.print(factura.getProvince());
       }
 
-*/
-
-   }
-
-
-/*
-[17:59] CARLOS JIMENEZ RODRIGUEZ
-        package com.cjimenezro.Electricidad_Chispas.presentation;
-        import com.cjimenezro.Electricidad_Chispas.domain.models.Facturas;
-public class ImpresionFacturas {
+      public static void print(Societies factura) {
+            System.out.println("Cif/Nif del cliente");
+            System.out.println(factura.getCif());
+      }
 
 
+      public static void print(Product factura) {
+            System.out.println("Codigo producto:");
+            System.out.println(factura.getIdProduct());
+            System.out.println("Nombre del producto:");
+            System.out.println(factura.getName());
+            System.out.println("Codido del servicio:");
+            System.out.println(factura.getPrice());
+            System.out.println("Codido del servicio:");
+            System.out.println(factura.getVatRate());
+            System.out.println("Codido del servicio:");
+      }
 
-   public static void print(Facturas factura){
-      System.out.println("RESUMEN FACTURA");
-      System.out.println("Codigo de la factura:");
-      System.out.println(factura.getCodigoFactura());
-      System.out.println("Fecha de la factura:");
-      System.out.println(factura.getFechaFactura());
-      System.out.println("Codido del cliente:");
-      System.out.println(factura.getCodigoCliente());
-      System.out.println("Codido del producto:");
-      System.out.println(factura.getCodigoProducto());
-      System.out.println("Codido del servicio:");
-      System.out.println(factura.getCodigoServicio());
-      System.out.println(factura.getBaseImponible());
-      System.out.println(factura.getTotal());
-   }
 
-   public static void print2(Facturas factura2){
-      System.out.println("RESUMEN FACTURA");
-      System.out.println("Codigo de la factura:");
-      System.out.println(factura2.getCodigoFactura());
-      System.out.println("Fecha de la factura:");
-      System.out.println(factura2.getFechaFactura());
-      System.out.println("Codigo del cliente:");
-      System.out.println(factura2.getCodigoFactura());
-      System.out.println("Codigo del producto:");
-      System.out.println(factura2.getCodigoProducto());
-      System.out.println("Codigo del servicio:");
-      System.out.println(factura2.getCodigoServicio());
-      System.out.println("Base imponible:");
-      System.out.println(factura2.getBaseImponible());
-      System.out.println("Total:");
-      System.out.println(factura2.getTotal());
-   }
+      public static void print(Invoices factura) {
 
-*/
+            System.out.println("Codigo factura:");
+            System.out.println(factura.getIdInvoice());
+            System.out.println("Fecha factura:");
+            System.out.println(factura.getInvoiceDate());
+
+            System.out.println("RESUMEN FACTURA");
+            System.out.print(factura.getTaxBase());
+      }
+
 
 }
+
+
+
+
+
 
 
 

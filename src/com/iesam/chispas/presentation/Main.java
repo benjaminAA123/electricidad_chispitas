@@ -1,9 +1,13 @@
 package com.iesam.chispas.presentation;
 
-import com.iesam.chispas.domain.models.Autonomous;
-import com.iesam.chispas.domain.models.Product;
-import com.iesam.chispas.domain.models.Service;
-import com.iesam.chispas.domain.models.Societies;
+import com.iesam.chispas.data.CustomerDataStore;
+import com.iesam.chispas.data.MemCustomerDataStore;
+import com.iesam.chispas.domain.models.*;
+import com.iesam.chispas.domain.usecase.AddCustomerUseCase;
+import com.iesam.chispas.domain.usecase.DeleteCustomerUseCase;
+import com.iesam.chispas.domain.usecase.GetCustomerUseCase;
+
+import java.util.List;
 
 public class Main {
         public static void main (String[] args){
@@ -51,21 +55,47 @@ public class Main {
 
 
 
+        printAutonomous(autonomous);
+        printSocieties(societies);
+
+
 
     }
 
     public static void printAutonomous(Autonomous autonomous) {
-                System.out.println("codi:" + autonomous.getIdClient() + " Nombre:" + autonomous.getName());
+        System.out.println("codi:" + autonomous.getIdClient() + " Nombre:" + autonomous.getName());
     }
+
 
     public static void printSocieties(Societies societies) {
                 System.out.println("codi:" +societies.getIdClient() + " Nombre: " + societies.getName());
     }
 
-    /*
-  /  public static void printUser(User user) {
-                System.out.println("cod:" + user.getIdClient() + "Nombre: " + user.getName());
-  /  }
-*/
+
+    public static void printUser(User user) {
+        System.out.println("codi:" + user.getIdClient() + " Nombre:" + user.getName());
+    }
+
+
+    CustomerDataStore customerDataStore = new MemCustomerDataStore();
+
+        AddCustomerUseCase addCustomerUseCase = new AddCustomerUseCase(customerDataStore);
+      AddCustomerUseCase.execute(autonomous);
+      AddCustomerUseCase.execute(societies);
+
+       GetCustomerUseCase getCustomerUseCase = new GetCustomerUseCase(customerDataStore);
+       List<User> customers = getCustomerUseCase.execute();
+       for (int i = 0; i < customers.size(); i++) {
+           printUser(customers.get(i));
+    }
+
+
+       DeleteCustomerUseCase deleteCustomerUseCase = new DeleteCustomerUseCase(customerDataStore);
+       deleteCustomerUseCase.execute()
+       List<User> customers = getCustomerUseCase.execute();
+       for (int i = 0; i < customers.size(); i++) {
+           printUser(customers.get(i));
+
+    }
 
 }

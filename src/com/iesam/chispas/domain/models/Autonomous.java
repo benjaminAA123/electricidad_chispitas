@@ -16,53 +16,44 @@ public class Autonomous implements User {
     public String email;
 
 
+
     @Override
     public Integer getIdClient() {
-        return null;
+        return this.idClient;
     }
 
     @Override
     public Integer getPhone() {
-        return null;
+        return this.phone;
     }
 
     @Override
     public String getName() {
-        return null;
+        return this.name + "" + this.surname;
     }
-
-
-
-    @Override
-    public String getSurname() {
-        return null;
-    }
-
-    @Override
-    public String getDni() {
-        return this.dni;
-    }
-
 
     @Override
     public String getPostal() {
-        return null;
+        return this.postal;
     }
 
     @Override
     public String getPopulation() {
-        return null;
+        return this.population;
     }
 
     @Override
     public String getProvince() {
-        return null;
+        return this.province;
     }
 
     @Override
     public String getEmail() {
-        return null;
+        return this.email;
     }
+
+
+
 
 
     public void setIdClient(Integer idClient) {
@@ -77,10 +68,17 @@ public class Autonomous implements User {
         this.name = name;
     }
 
+    public String getSurname() {
+        return surname;
+    }
+
     public void setSurname(String surname) {
         this.surname = surname;
     }
 
+    public String getDni() {
+        return dni;
+    }
 
     public void setDni(String dni) {
         this.dni = dni;
@@ -101,6 +99,8 @@ public class Autonomous implements User {
     public void setEmail(String email) {
         this.email = email;
     }
+
+
 }
 
 

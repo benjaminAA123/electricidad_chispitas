@@ -8,7 +8,8 @@ public class Invoices {
     public String product;
     public String service;
     public String taxBase;
-    public String totalVat;
+    public String totalProduct;
+    public String totalService;
 
 
     public Integer getIdInvoice() {
@@ -19,7 +20,6 @@ public class Invoices {
         this.idInvoice = idInvoice;
     }
 
-
     public String getInvoiceDate() {
         return invoiceDate;
     }
@@ -27,8 +27,6 @@ public class Invoices {
     public void setInvoiceDate(String invoiceDate) {
         this.invoiceDate = invoiceDate;
     }
-
-
 
     public String getClient() {
         return client;
@@ -38,22 +36,46 @@ public class Invoices {
         this.client = client;
     }
 
+    public String getProduct() {
+        return product;
+    }
 
+    public void setProduct(String product) {
+        this.product = product;
+    }
+
+    public String getService() {
+        return service;
+    }
+
+    public void setService(String service) {
+        this.service = service;
+    }
 
     public String getTaxBase() {
-        return  taxBase;
+        return taxBase;
     }
 
     public void setTaxBase(String taxBase) {
         this.taxBase = taxBase;
     }
 
-    public String getTotalVat() {
-        return totalVat;
+    public String getTotalProduct() {
+        return totalProduct;
     }
 
-    public void setTotalVat(String totalVat) {
-        this.totalVat = totalVat;
+    public void setTotalProduct(String totalProduct) {
+        this.totalProduct = totalProduct;
     }
 
+    public String getTotalService() {
+        return totalService;
     }
+
+    public void setTotalService(String totalService) {
+        this.totalService = totalService;
+    }
+
+
+
+}

@@ -1,6 +1,6 @@
 package com.iesam.chispas.domain.models;
 
-public class Societies implements User {
+public class Societies implements User{
 
     private Integer idClient;
     private Integer phone;
@@ -10,7 +10,6 @@ public class Societies implements User {
     public String population;
     public String province;
     public String email;
-
 
 
     @Override
@@ -25,27 +24,7 @@ public class Societies implements User {
 
     @Override
     public String getName() {
-        return null;
-    }
-
-    @Override
-    public String getSurname() {
-        return null;
-    }
-
-    @Override
-    public String getDni() {
-        return null;
-    }
-
-
-    public String getCompanyName() {
-        return companyName;
-    }
-
-
-    public String getCif() {
-        return cif;
+        return this.getName();
     }
 
     @Override
@@ -68,6 +47,7 @@ public class Societies implements User {
         return null;
     }
 
+
     public void setIdClient(Integer idClient) {
         this.idClient = idClient;
     }
@@ -76,8 +56,16 @@ public class Societies implements User {
         this.phone = phone;
     }
 
+    public String getCompanyName() {
+        return companyName;
+    }
+
     public void setCompanyName(String companyName) {
         this.companyName = companyName;
+    }
+
+    public String getCif() {
+        return cif;
     }
 
     public void setCif(String cif) {

@@ -8,9 +8,6 @@ public interface User {
 
     public String getName();
 
-    public String getSurname();
-
-    public String getDni();
 
     public String getPostal();
 
@@ -19,5 +16,8 @@ public interface User {
     public String getProvince();
 
     public String getEmail();
+
+
+
 
 }

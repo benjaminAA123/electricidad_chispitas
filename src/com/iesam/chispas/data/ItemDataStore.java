@@ -4,7 +4,7 @@ import com.iesam.chispas.domain.models.User;
 
 import java.util.List;
 
-public interface CustomerDataStore {
+public interface ItemDataStore {
 
     void saveCustomer(User user);
     void deleteCustomer(User user);
