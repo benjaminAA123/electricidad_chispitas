@@ -76,7 +76,7 @@ public class Main {
         System.out.println("codi:" + user.getIdClient() + " Nombre:" + user.getName());
     }
 
-
+/**
     CustomerDataStore customerDataStore = new MemCustomerDataStore();
 
         AddCustomerUseCase addCustomerUseCase = new AddCustomerUseCase(customerDataStore);
@@ -97,5 +97,5 @@ public class Main {
            printUser(customers.get(i));
 
     }
-
+*/
 }
