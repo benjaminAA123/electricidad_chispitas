@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f869b092-5f54-4b71-ad27-b76e743dff7f" name="Changes" comment="chispas  + customer">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/iesam/chispas/presentation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/iesam/chispas/presentation/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/iesam/chispas/img_chispas/chispas.PNG" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +47,9 @@
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.iesam.chispas.presentation" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\alumno.AMAV\IdeaProjects\Electricidad_chispas\src\com\iesam\chispas\img_chispas" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.iesam.chispas.data" />
@@ -111,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670442369447</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="chispas  + customer">
+      <created>1670950907010</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670950907010</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
