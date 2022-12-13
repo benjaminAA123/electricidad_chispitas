@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f869b092-5f54-4b71-ad27-b76e743dff7f" name="Changes" comment="gestion de productos y servicios">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f869b092-5f54-4b71-ad27-b76e743dff7f" name="Changes" comment="gestion de productos y servicios" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +47,7 @@
       <recent name="com.iesam.chispas.presentation" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\alumno.AMAV\IdeaProjects\Electricidad_chispas\src\com\iesam\chispas\img_caso_de_uso" />
       <recent name="D:\Users\alumno.AMAV\IdeaProjects\Electricidad_chispas\src\com\iesam\chispas\img_chispas" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -126,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670951413929</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="gestion de productos y servicios">
+      <created>1670953874861</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670953874861</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
